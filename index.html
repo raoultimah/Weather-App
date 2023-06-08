@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+    <title>Check Weather</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="checker-container">
+            <div class="checker-heading">Weather Checker</div>
+            <div class="checker-form">
+                <form>
+                    <input type="text" name="city" id="city" placeholder="Enter City">
+                    <input type="submit" value="Get Weather">
+                </form>
+            </div>
+
+            <div class="checker-details" id="weather-data">
+                <div class="icon">
+                    <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+                </div>
+                <div class="temperature"></div>
+                <div class="description"></div>
+                <div class="details">
+                    <!-- <div class="">Feels like 23&deg;</div>
+                    <div class="">Humidity: 54%</div>
+                    <div class="">Wind Speed: 9m/s</div> -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

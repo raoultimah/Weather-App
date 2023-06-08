@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-size: 70%;
+    background: rgb(219, 219, 219);
+}
+
+.checker-container{
+    margin: 10vh 15vw;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.checker-heading{
+    font-size: 2rem;
+}
+
+.checker-form form{
+    display: inline;
+    width: 100%;
+}
+
+form input{
+    outline: none;
+    padding: 7px 5px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #979696;
+    background-color: #f1f1f1;
+}
+
+form input[type="submit"]{
+    border: 1.5px solid #979696;
+    background: transparent;
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 700ms;
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.temperature{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.description{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details div{
+    margin: 7px;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+    background: rgb(226, 226, 226);
+    min-height: 45px;
+}
+
